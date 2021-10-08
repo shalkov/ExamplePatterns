@@ -9,7 +9,5 @@ class Main {
             .addHead()
             .addLegs()
             .build()
-
-        human.
     }
 }
