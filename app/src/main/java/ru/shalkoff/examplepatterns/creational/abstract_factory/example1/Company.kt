@@ -1,4 +1,6 @@
-package ru.shalkoff.examplepatterns.creational.abstract_factory
+package ru.shalkoff.examplepatterns.creational.abstract_factory.example1
+
+import ru.shalkoff.examplepatterns.creational.abstract_factory.AbstractDevelopersFactory
 
 /**
  * Какая-то гепотетическая компания, которой нужны разработчик

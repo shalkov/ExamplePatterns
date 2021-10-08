@@ -1,5 +1,8 @@
 package ru.shalkoff.examplepatterns.creational.abstract_factory
 
+import ru.shalkoff.examplepatterns.creational.abstract_factory.example1.Junior
+import ru.shalkoff.examplepatterns.creational.abstract_factory.example1.Middle
+
 /**
  * Симейство разработчиков в Surf
  */

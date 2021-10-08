@@ -1,3 +1,0 @@
-package ru.shalkoff.examplepatterns.creational.abstract_factory
-
-interface Middle
