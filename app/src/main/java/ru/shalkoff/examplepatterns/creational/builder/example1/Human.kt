@@ -1,4 +1,4 @@
-package ru.shalkoff.examplepatterns.creational.builder
+package ru.shalkoff.examplepatterns.creational.builder.example1
 
 /**
  * Объект человека
@@ -43,6 +43,8 @@ class Human private constructor(
             private set
         var hasHands: Boolean = false
             private set
+        var hasMind: Boolean = false
+            private set
 
         fun addHead(): HumanBuilder {
             hasHead = true
@@ -61,6 +63,11 @@ class Human private constructor(
 
         fun addHands(): HumanBuilder {
             hasHands = true
+            return this
+        }
+
+        fun addMind(): HumanBuilder {
+            hasMind = true
             return this
         }
 
